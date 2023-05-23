@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QDialog" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1538</width>
+    <height>1051</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QPushButton" name="cancelButton">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>700</y>
+     <width>391</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/image/picture/button.jpg);
+font: 48pt &quot;Agency FB&quot;;
+font: 75 26pt &quot;楷体&quot;;
+color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>退出游戏</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="menu_back">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>221</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;img src=&quot;:/new/image/picture/menubackground.jpeg&quot;/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="information_button">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>450</y>
+     <width>391</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/image/picture/button.jpg);
+font: 48pt &quot;Agency FB&quot;;
+font: 75 26pt &quot;楷体&quot;;
+color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>关于该游戏</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="begin_button">
+   <property name="geometry">
+    <rect>
+     <x>1240</x>
+     <y>190</y>
+     <width>391</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/new/image/picture/button.jpg);
+font: 48pt &quot;Agency FB&quot;;
+font: 75 26pt &quot;楷体&quot;;
+color: rgb(0, 255, 0);</string>
+   </property>
+   <property name="text">
+    <string>开始游戏</string>
+   </property>
+  </widget>
+  <zorder>menu_back</zorder>
+  <zorder>cancelButton</zorder>
+  <zorder>information_button</zorder>
+  <zorder>begin_button</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
