@@ -16,6 +16,7 @@ public:
     ~menu();
 
 private slots:
+
     void on_cancelButton_clicked();
 
     void on_information_button_clicked();
