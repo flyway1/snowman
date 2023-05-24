@@ -1,4 +1,6 @@
 首页：
 加载界面 menu
 背景图片 menu_back
-三个按钮（从上到下） begin_button,information_button,cancelbutton
+三个按钮（从上到下） begin_button,information_button,cancelButton
+游戏界面：
+返回按钮 back_button
