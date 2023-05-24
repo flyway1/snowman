@@ -5,6 +5,7 @@
 #include <QtWidgets>
 #include <QMessageBox>
 
+
 menu::menu(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::menu)
