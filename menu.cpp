@@ -1,6 +1,7 @@
 #include "menu.h"
 #include "ui_menu.h"
 #include "picture.h"
+#include "mygame.h"
 #include <QtWidgets>
 #include <QMessageBox>
 
@@ -36,4 +37,12 @@ void menu::on_cancelButton_clicked()
 void menu::on_information_button_clicked()
 {
     QMessageBox::about(this,tr("关于该游戏"),tr("你猜呀！？。】、"));
+}
+
+//进入正式的游戏界面
+void menu::on_begin_button_clicked()
+{
+    myGame *mygame0=new myGame;
+    mygame0->show();
+    close();
 }
