@@ -2,7 +2,7 @@
 #define MENU_H
 
 #include <QDialog>
-
+#include "mygame.h"
 namespace Ui {
 class menu;
 }
@@ -25,5 +25,5 @@ private slots:
 private:
     Ui::menu *ui;
 };
-
 #endif // MENU_H
+
