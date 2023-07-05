@@ -7,7 +7,6 @@
 class picture:public QLabel
 {
     Q_OBJECT
-    
 public:
     picture(QString Img,QWidget *widget);
     picture(QWidget *widget);

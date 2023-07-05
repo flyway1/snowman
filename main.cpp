@@ -9,6 +9,5 @@ int main(int argc, char *argv[])
     menu menu0;
     menu0.show();
 
-    
     return a.exec();
 }

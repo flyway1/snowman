@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>story</class>
+ <widget class="QWidget" name="story">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>706</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>621</width>
+     <height>451</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;从前，有三位登山者想要组队攀登这座名为“尘&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;涉峰”的雪山，&lt;/span&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;却因为赶大作业的ddl过于着急&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;而不幸中道崩殂。&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;带着怨气，他们化身成为可怕的幽灵，追杀着&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;每一个来此攀登的冒险者……&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;本游戏需要玩家操纵冒险者躲避障碍，获得道&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;justify&quot;&gt;&lt;span style=&quot; font-family:'Courier New'; font-size:14pt; font-weight:600; color:#ff0000;&quot;&gt;具，成功躲避幽灵的追击，拿到更高的分数！&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>550</y>
+     <width>111</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/image">
+        <file>picture/menubackground.jpeg</file>
+        <file>picture/button.jpg</file>
+        <file>picture/SnowMountain.jpg</file>
+        <file>picture/man.png</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>picture/back.webp</file>
+    </qresource>
+</RCC>

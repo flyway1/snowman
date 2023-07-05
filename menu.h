@@ -26,4 +26,3 @@ private:
     Ui::menu *ui;
 };
 #endif // MENU_H
-

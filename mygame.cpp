@@ -522,3 +522,4 @@ void myGame::on_jumpbutton_clicked()
         m_people.JumpBool=1;
     }
 }
+

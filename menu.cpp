@@ -48,4 +48,3 @@ void menu::on_begin_button_clicked()
     mygame0->show();
     close();
 }
-
